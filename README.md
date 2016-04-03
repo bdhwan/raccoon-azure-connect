@@ -6,6 +6,7 @@ npm install raccoon-azure-connect --save
 
 +usage
 ``` js
+var raccoon = require('raccoon-azure-connect');
 raccoon.connect(6379,'<name>.redis.cache.windows.net', '<key>');
 //it works
 ```
@@ -16,7 +17,6 @@ raccoon.connect(6379,'<name>.redis.cache.windows.net', '<key>');
 I changed connect function because it could not connect on azure redis.
 It did not work with auth
 ``` js
-var raccoon = require('raccoon-azure-connect');
 raccoon.connect(6379,'<name>.redis.cache.windows.net', {auth_pass: '<key>', tls: {servername: '<name>.redis.cache.windows.net'}});
 //it is not work
 ```
