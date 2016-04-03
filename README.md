@@ -1,4 +1,18 @@
 # recommendationRaccoon (raccoon)
+
+``` bash
+npm install raccoon-azure-connect --save
+```
+
++usage
+``` js
+raccoon.connect(6379,'<name>.redis.cache.windows.net', '<key>');
+//it works
+```
+
+
+
+
 I changed connect function because it could not connect on azure redis.
 It did not work with auth
 ``` js
