@@ -1,6 +1,6 @@
 {
-  "name": "raccoon",
-  "author": "Guy Morita",
+  "name": "raccoon-azure-connect",
+  "author": "Bae Dong Hwan",
   "description": "A Collaborative Filtering Recommendation Engine for Node.js utilizing Redis with azure redis connection",
   "version": "0.0.1",
   "repository": {
