@@ -35,7 +35,7 @@ Raccoon.prototype.connect = function(_port, hostName, key){
 
 finally connect like this
 ``` js
-raccoon.connect(6379,'<name>.redis.cache.windows.net', '<key>);
+raccoon.connect(6379,'<name>.redis.cache.windows.net', '<key>');
 //it works
 ```
 
