@@ -1,11 +1,11 @@
 {
   "name": "raccoon",
   "author": "Guy Morita",
-  "description": "A Collaborative Filtering Recommendation Engine for Node.js utilizing Redis",
-  "version": "0.2.3",
+  "description": "A Collaborative Filtering Recommendation Engine for Node.js utilizing Redis with azure redis connection",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/guymorita/recommendationRaccoon.git"
+    "url": "https://github.com/bdhwan/raccoon-azure-connect.git"
   },
   "dependencies": {
     "async": "~0.2.9",
@@ -59,6 +59,6 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/guymorita/recommendationRaccoon/issues"
+    "url": "https://github.com/bdhwan/raccoon-azure-connect/issues"
   }
 }
