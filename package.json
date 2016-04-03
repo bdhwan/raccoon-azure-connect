@@ -1,0 +1,64 @@
+{
+  "name": "raccoon",
+  "author": "Guy Morita",
+  "description": "A Collaborative Filtering Recommendation Engine for Node.js utilizing Redis",
+  "version": "0.2.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guymorita/recommendationRaccoon.git"
+  },
+  "dependencies": {
+    "async": "~0.2.9",
+    "redis": "~0.8.4",
+    "underscore": "~1.5.1"
+  },
+  "devDependencies": {
+    "coveralls": "2.1.x",
+    "travis-cov": "0.2.x",
+    "blanket": "1.1.5",
+    "mocha-lcov-reporter": "0.0.1",
+    "grunt": "0.4.1",
+    "grunt-cli": "0.1.7",
+    "chai": "*",
+    "mocha": "*",
+    "grunt-mocha-test": "0.6.2",
+    "grunt-contrib-jshint": "0.6.2",
+    "grunt-contrib-watch": "0.5.1",
+    "grunt-mocha-cov": "0.0.4",
+    "sinon-chai": "2.4.0",
+    "sinon": "1.7.3",
+    "grunt-blanket-mocha": "0.2.0"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "lib",
+      "data-cover-never": "node_modules"
+    },
+    "test": "grunt test"
+  },
+  "main": "./index.js",
+  "engines": {
+    "node": "*"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/guymorita/recommendationRaccoon/LICENSE"
+    }
+  ],
+  "keywords": [
+    "recommend",
+    "recommended",
+    "recommendation",
+    "engine",
+    "collaborative",
+    "filtering",
+    "middleware",
+    "redis"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/guymorita/recommendationRaccoon/issues"
+  }
+}
